@@ -40,7 +40,7 @@ class ComRedisModelDefault extends ComDefaultModelDefault
 	{
 		$state = $this->_state;
 
-		if($state->cache === 0) {
+		if($state->cache === 0 || !$state->id) {
 			parent::getItem();
 		} else {
 			$state = $this->_state;
