@@ -15,4 +15,10 @@
         <folder>databases</folder>
         <folder>models</folder>
     </files>
+
+    <administration>
+        <files folder="administrator/components/com_redis">
+            <file>redis.php</file>
+        </files>
+    </administration>
 </extension>
